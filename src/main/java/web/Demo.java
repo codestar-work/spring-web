@@ -16,7 +16,7 @@ public class Demo {
 	String calculate(double balance, Model model) {
 		double result = balance * 1.25 / 100;
 		model.addAttribute("result", result);
-		return "result";
+		return "interest";
 	}
 
 }
