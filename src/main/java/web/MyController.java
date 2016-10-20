@@ -12,4 +12,8 @@ public class MyController {
 		return "index";
 	}
 
+	@RequestMapping("/test")
+	String test() {
+		return "test.jsp";
+	}
 }
